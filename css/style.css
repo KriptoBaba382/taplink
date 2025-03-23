@@ -1,3 +1,31 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: #f7f7f7;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.page-wrapper {
+    max-width: 375px;
+    margin: auto;
+    background: #f7f7f7;
+    box-shadow: 0px 0px 30px rgba(128, 127, 127, 0.25);
+    border-radius: 20px;
+}
+.header {
+    color: white;
+    padding: 40px 42px 145px;
+    background: rgba(60, 56, 56, 0.58) url('../img/header-bg.png') no-repeat center / cover;
+    border-radius: 0px 0px 90px 90px;
+}
+.hello {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.hello-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;  
+}
