@@ -51,14 +51,59 @@ body {
 .user-name {
     margin-top: 8px;
     margin-bottom: 4px;
- font-size: 16px;
- font-weight: 700;
- line-height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
 }
 .user-description {    
- color: rgb(114 110 110);
- font-size: 12px;
- font-weight: 500;
- line-height: 14px;
- margin-top: 4px;
+    color: rgb(114 110 110);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-top: 4px;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0 0 0 0.05);
+    background: rgb(255 255 255);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 260px;
+    margin: auto;
+    gap: 10px;
+    
+}
+.button {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    flex-shrink: 1;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    color:#f7f7f7;
+    font-weight: 500;
+    font-style: 12px;
+    line-height: 15px;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+.button.vk {
+background: #4c75a3;
+}
+.button.tg {
+background: #0088CC; 
+}
+.button.yt {
+background: #E52D27; 
+}
+.button.hh {
+    background-color: #ff0002;
 }
